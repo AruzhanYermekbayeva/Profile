@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    padding-top: 60px; 
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    z-index: 1000; 
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color:deeppink;
+    font-size: 1.2rem;
+}
+
+.logo {
+    color:deeppink;
+    font-size: 1.5rem;
+}
+
+.hobbies-container {
+    text-align: center;
+    padding: 2rem;
+}
+
+.hobbies-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.hobby {
+    margin: 1.5rem 0;
+}
+
+.hobby-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.hobby p {
+    font-size: 1.25rem;
+    color:deeppink
+}
